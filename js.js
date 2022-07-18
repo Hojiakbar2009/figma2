@@ -1,36 +1,25 @@
 
 
 let shop = {
-    id: "6% OFF",
-    nomi: "Buy More & Save More" ,
-    kompaniya: "Beverage",
-}
+    name: "api",
+    age:"44"
 
-function add() {
-    localStorage.setItem("Buy More & Save More", JSON.stringify("shop"))
 }
 
 
 
+function bosing(){
+    localStorage.setItem("api", JSON.stringify(shop))
 
-let op = localStorage.getItem(JSON.parse("shop"));
+}
 
+let loca = localStorage.getItem("api");
 
-
-{op.localeCompare((ota) =>
-        `
-        <div class="div_1">
-        <p>${shop.id}</p>
-        </div>
-
-        `
-)}
-
-
-let btn = document.querySelector("#tn");
-let local = document.querySelector("#local_page")
-
-btn.addEventListener("click", function(){
-    local.style.transform = "translateX(0px)"
+loca.map((item)=>{
+    loca.innerHTML += `
+    <div class="item">
+    <p>${item.age}</p>
+    </div>
+    `
 })
 

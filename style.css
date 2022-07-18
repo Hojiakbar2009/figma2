@@ -314,11 +314,14 @@ color: #2A2A2A;
 }
 
 
+
 #local_page{
     width: 400px;
     top: 5px;
+    padding-left: 350px;
     height: 600px;
     right: 1px;
+    color: white;
     transition: all 1s;
     transform: translateX(400px);
     display: block;
