@@ -11,6 +11,16 @@ body{
     justify-content: center;
 }
 
+
+button{
+    cursor: pointer;
+}
+
+
+div{
+    cursor: pointer;
+}
+
 .wrapper{
     max-width: 1920px;
     width: 100%;
