@@ -1,23 +1,36 @@
-// const obj = {name: "John", age: 30, city: "New York"};
-
-// const myJSON = JSON.stringify(obj);
-
-// ------------
 
 
-// let local = document.querySelector(".local_page");
-// let span = document.querySelector(".ili");
-// let btn = document.querySelector(".sss");
+let shop = {
+    id: "6% OFF",
+    nomi: "Buy More & Save More" ,
+    kompaniya: "Beverage",
+}
 
-// btn.addEventListener("click", function () {
-//     local.style.transform = "translateX(0px)";
-// });
-// span.addEventListener("click", function () {
-//     local.style.transform = "translateX(450px)"
-// });
-
-
-// ------------
+function add() {
+    localStorage.setItem("Buy More & Save More", JSON.stringify("shop"))
+}
 
 
-confirm("salom")
+
+
+let op = localStorage.getItem(JSON.parse("shop"));
+
+
+
+{op.localeCompare((ota) =>
+        `
+        <div class="div_1">
+        <p>${shop.id}</p>
+        </div>
+
+        `
+)}
+
+
+let btn = document.querySelector("#tn");
+let local = document.querySelector("#local_page")
+
+btn.addEventListener("click", function(){
+    local.style.transform = "translateX(0px)"
+})
+

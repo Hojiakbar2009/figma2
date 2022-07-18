@@ -42,6 +42,7 @@ p{
     max-width: 1920px;
     width: 100%;
     height: auto;
+    position: relative;
     overflow: hidden;
 }
 
@@ -54,7 +55,7 @@ header{
     justify-content: center;
     flex-direction: row;
     background-color: black;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
     
 }
 
@@ -76,7 +77,7 @@ header{
 }
 
 select{
-    border: no;
+    border: none;
 }
 
 span{
@@ -127,6 +128,7 @@ nav{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+
 }
 
 
@@ -301,7 +303,7 @@ color: #2A2A2A;
     justify-content: center;
 }
 
-.nav2_box{
+#tn{
     width: 125px;
     height: 50px;
     background-color: #7FAD39;
@@ -309,6 +311,20 @@ color: #2A2A2A;
     align-items: center;
     justify-content: space-between;
     padding: 0 10px;
+}
+
+
+#local_page{
+    width: 400px;
+    top: 5px;
+    height: 600px;
+    right: 1px;
+    transition: all 1s;
+    transform: translateX(400px);
+    display: block;
+    background-color: rgba(0, 0, 0, 0.221);
+    position: absolute;
+   
 }
 
 .nav2_box form{
@@ -377,7 +393,7 @@ color: #FFFFFF;
     width: 339px;
     height: 228px;
     padding: 14px 14px 14px 0;
-    background-image: url();
+    background-image: url(./img/Rectangle\ 7.png);
     background-repeat: no-repeat;
 }
 
@@ -409,7 +425,9 @@ color: #FFFFFF;
     justify-content: end;
     flex-direction: column;
     height: 200px;
+
 }
+
 
 .btn {
     width: 125px;
