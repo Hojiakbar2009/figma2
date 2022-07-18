@@ -17,7 +17,24 @@ button{
 }
 
 
-div{
+text{
+    cursor: pointer;
+}
+
+svg{
+    cursor: pointer;
+}
+
+img{
+    cursor: pointer;
+}
+
+p{
+    cursor: pointer;
+}
+
+.nav2_box{
+
     cursor: pointer;
 }
 
@@ -41,6 +58,10 @@ header{
     
 }
 
+.sec3_box1 p{
+    margin-top: -15px;
+}
+
 .img{
     display: flex;
     align-items: center;
@@ -54,6 +75,13 @@ header{
     color: #878787;
 }
 
+select{
+    border: no;
+}
+
+span{
+    cursor: pointer;
+}
 
 .hedlink {
     display: flex;
@@ -349,7 +377,7 @@ color: #FFFFFF;
     width: 339px;
     height: 228px;
     padding: 14px 14px 14px 0;
-    background-image: url(./img/Rectangle\ 7.png);
+    background-image: url();
     background-repeat: no-repeat;
 }
 
