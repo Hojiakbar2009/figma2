@@ -77,11 +77,13 @@ btn_3.addEventListener("click", function(){
         
         `;
         
-        
+
         p_1.addEventListener("click", function () {
             modal.style.display = "none";
         });
+        
     })
+
 });
 
 
