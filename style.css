@@ -5,44 +5,23 @@
     font-family: sans-serif;
 }
 
+
+.sec1_1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 body{
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-
-button{
-    cursor: pointer;
-}
-
-
-text{
-    cursor: pointer;
-}
-
-svg{
-    cursor: pointer;
-}
-
-img{
-    cursor: pointer;
-}
-
-p{
-    cursor: pointer;
-}
-
-.nav2_box{
-
-    cursor: pointer;
-}
-
 .wrapper{
     max-width: 1920px;
     width: 100%;
     height: auto;
-    position: relative;
     overflow: hidden;
 }
 
@@ -55,14 +34,32 @@ header{
     justify-content: center;
     flex-direction: row;
     background-color: black;
-    flex-wrap: wrap; 
-    
+    flex-wrap: wrap;
 }
-
-.sec3_box1 p{
-    margin-top: -15px;
+.salom{
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
 }
-
+.salom p{
+    font-size: 30px;
+    color: red;
+    cursor: pointer;
+}
+.modal{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 360px;
+    height: 560px;
+    background-color: rgb(0, 37, 245);
+    padding: 10px;
+    position: absolute;
+    top: 350px;
+    z-index: 100;
+    overflow-y: scroll;
+}
 .img{
     display: flex;
     align-items: center;
@@ -76,13 +73,6 @@ header{
     color: #878787;
 }
 
-select{
-    border: none;
-}
-
-span{
-    cursor: pointer;
-}
 
 .hedlink {
     display: flex;
@@ -113,6 +103,12 @@ span{
 
 
 
+.sec1_1{
+    display: flex;
+    align-items: center;
+
+}
+
 
 
 
@@ -124,16 +120,20 @@ span{
 
 
 nav{
+    width: 1920px;
+    position: sticky;
     display: flex;
     align-items: center;
     justify-content: center;
+    top: 10px;
+    
     flex-wrap: wrap;
-
 }
 
 
 .navleft{
-    display: flex;align-items: center;
+    display: flex;
+    align-items: center;
     flex-direction: row;
     height: 80px;
 }
@@ -236,6 +236,7 @@ nav{
     justify-content: space-between;
     /* vertical-align: middle; */
     border-top-style: solid;
+    
     border-top-color: gray;
     border-bottom-color: gray;
     border-right-style: none;
@@ -303,7 +304,7 @@ color: #2A2A2A;
     justify-content: center;
 }
 
-#tn{
+.nav2_box{
     width: 125px;
     height: 50px;
     background-color: #7FAD39;
@@ -311,23 +312,6 @@ color: #2A2A2A;
     align-items: center;
     justify-content: space-between;
     padding: 0 10px;
-}
-
-
-
-#local_page{
-    width: 400px;
-    top: 5px;
-    padding-left: 350px;
-    height: 600px;
-    right: 1px;
-    color: white;
-    transition: all 1s;
-    transform: translateX(400px);
-    display: block;
-    background-color: rgba(0, 0, 0, 0.221);
-    position: absolute;
-   
 }
 
 .nav2_box form{
@@ -378,7 +362,19 @@ color: #FFFFFF;
 
 /* ============ section 1 =============================== */
 
+.p_1{
+    font-size: 40px;
+    font-weight: 600;
+    cursor: pointer;
+    background-image: linear-gradient(to right, var(--pink), var(--purple));
+    color: green    ;
+}
 
+
+
+.modal{
+    position: fixed;
+}
 .section_1 {
     padding-top: 40px;
     width: 100%;
@@ -428,9 +424,7 @@ color: #FFFFFF;
     justify-content: end;
     flex-direction: column;
     height: 200px;
-
 }
-
 
 .btn {
     width: 125px;
@@ -498,6 +492,10 @@ button{
     background-repeat: no-repeat;
 }
 
+
+.modal{
+    background-color: #7FAD39;
+}
 .div_5 {
     display: flex;
     align-items: center;

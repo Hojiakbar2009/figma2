@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+
     <div class="wrapper">
 
 <!-- header nav1 - hojiakbar -->
@@ -25,11 +26,11 @@
         <div class="img2"><img src="./img/Vector (36).png" alt=""></div>
         <div class="img3"><img src="./img/Vector (37).png" alt=""></div>
         <div class="img4"><img src="./img/Vector (38).png" alt=""></div>
-        <div class="img5"><a href="https://www.instagram.com/"><img src="./img/Vector (39).png" alt=""></a></div>
+        <div class="img5"><img src="./img/Vector (39).png" alt=""></div>
     </div>
 </header>
 <nav>
-    <div class="navleft">
+    <div class="navleft"> 
 
 
         <div class="select">
@@ -68,13 +69,16 @@
     </div>
 </nav>
 
-
+<div class="modal">
+    <div class="salom">
+        <span class="p_1">x</span>
+    </div>
+</div>
 <!-- header nav1 - hojiakbar -->
 
 <!-- nav 2 - Muhammadamin -->
 
 <div class="nav2">
-
     <div class="nav2_left">
         <div class="nav2_logo">
             <button style="border: none;"><svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -82,25 +86,19 @@
                 </svg>
                 </button>
                <p>
-
                 Select Categories
                </p> 
         </div>
-
         <div class="nav2_a">
             <a href="#">HOME</a>
             <a href="#">Product</a>
             <a href="#">Stores</a>
             <a href="#">CONTACT</a>
         </div>
-        <div id="local_page">
-            <h1 id="h1">X</h1>
-        </div>
     </div>
     <div class="nav2_right">
-        <div class="nav2_box">
-     <button id="tn">
-    <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <button class="nav2_box">
+            <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M14.55 11C15.3 11 15.96 10.59 16.3 9.97L19.88 3.48C20.25 2.82 19.77 2 19.01 2H4.21L3.27 0H0V2H2L5.6 9.59L4.25 12.03C3.52 13.37 4.48 15 6 15H18V13H6L7.1 11H14.55ZM5.16 4H17.31L14.55 9H7.53L5.16 4ZM6 16C4.9 16 4.01 16.9 4.01 18C4.01 19.1 4.9 20 6 20C7.1 20 8 19.1 8 18C8 16.9 7.1 16 6 16ZM16 16C14.9 16 14.01 16.9 14.01 18C14.01 19.1 14.9 20 16 20C17.1 20 18 19.1 18 18C18 16.9 17.1 16 16 16Z" fill="white"/>
             </svg>
 
@@ -108,83 +106,82 @@
                     <option value="">CART 2</option>
                     <select name="" id=""> </select>
                 </form>
-     </button>
-        </div>
+        </button>
     </div>
-
     <!-- <div class="local_page">
         <span class="ili">XXXXXXXXXXXXXXXX</span>
     </div> -->
 
 
 </div>
- 
 
 <!-- nav 2 - Muhammadamin -->
 
 <!-- sec1 ilyosbek -->
 
-
 <div class="section_1">
-            
-    <div class="div_1">
-        <div class="left">
-            <div class="right">
-                <button onclick="bosing()" class="btn">shop now</button>
-            </div>
-            </div>
-        </div>
-        <div class="div_2">
-            <div class="left">
-                <div class="div2">
-                    <span>10% OFF</span>
-                    <b>Buy More & Save More</b>
-                    <p class="salom">Nuts & Snacks</p>
-                </div>
-            </div>
-            <div class="right">
-                <button class="btn">shop now</button>
-            </div>
-        </div>
-        <div class="div_3">
-            <div class="left">
-                <div class="div2">
-                    <span>6% OFF</span>
-                    <b>Buy More & Save More</b>
-                    <p class="salom">Fresh Vegetables</p>
-                </div>
-            </div>
-            <div class="right">
-                <button class="btn">shop now</button>
-            </div>
-        </div>
-        <div class="div_4">
-            <div class="left">
-                <div class="div2">
-                    <span>25% OFF</span>
-                    <b>Buy More & Save More</b>
-                    <p class="salom"> Fresh Fruits</p>
-                </div>
-            </div>
-            <div class="right">
-                <button class="btn">shop now</button>
-            </div>
-        </div>
-        <div class="div_5">
-            <div class="left">
-                <div class="div2">
-                    <span>15% OFF</span>
-                    <b>Buy More & Save More</b>
-                    <p class="salom">Eggs & Dairy</p>
-                </div>
-            </div>
-            <div class="right">
-                <button onclick="add()" class="btn">shop now</button>
-            </div>
-        </div>
     
+    <!-- <div class="div_1">
+        <div class="left">
+            <div class="div1">
+                <span>6% OFF</span>
+                <b>Buy More & Save More</b>
+                <p class="salom">Beverage</p>
+            </div>
+        </div>
+        <div class="right">
+            <button class="btn">shop now</button>
+        </div>
     </div>
-
+    <div class="div_2">
+        <div class="left">
+            <div class="div2">
+                <span>10% OFF</span>
+                <b>Buy More & Save More</b>
+                <p class="salom">Nuts & Snacks</p>
+            </div>
+        </div>
+        <div class="right">
+            <button class="btn">shop now</button>
+        </div>
+    </div>
+    <div class="div_3">
+        <div class="left">
+            <div class="div2">
+                <span>6% OFF</span>
+                <b>Buy More & Save More</b>
+                <p class="salom">Fresh Vegetables</p>
+            </div>
+        </div>
+        <div class="right">
+            <button class="btn">shop now</button>
+        </div>
+    </div>
+    <div class="div_4">
+        <div class="left">
+            <div class="div2">
+                <span>25% OFF</span>
+                <b>Buy More & Save More</b>
+                <p class="salom"> Fresh Fruits</p>
+            </div>
+        </div>
+        <div class="right">
+            <button class="btn">shop now</button>
+        </div>
+    </div>
+    <div class="div_5">
+        <div class="left">
+            <div class="div2">
+                <span>15% OFF</span>
+                <b>Buy More & Save More</b>
+                <p class="salom">Eggs & Dairy</p>
+            </div>
+        </div>
+        <div class="right">
+            <button class="btn">shop now</button>
+        </div>
+    </div> -->
+</div>
 
 <!-- sec1 ilyosbek -->
 
@@ -213,7 +210,7 @@
                 <a href="">Dairy & Eggs</a>
             </div>
             <div class="maxsulotlar">
-                <img src="./img/shopping-cart 1.png" alt="">
+                <img src="./img/groceries 1.png" alt="">
                 <a href="">Beverages</a>
             </div>
             <div class="maxsulotlar">
@@ -235,7 +232,7 @@
         <div class="sec3_top">
             <p>For You</p>
             <span>Top Featured Products</span>
-        </div>
+        </div>  
         <div class="sec3_but">
             <div class="persi">
                 <div class="chegrma">
@@ -243,7 +240,7 @@
                     <button><img src="./img/Frame 80.png" alt=""></button>
                 </div>
                 
-                <img id="img1" src="./img/kokat.png" alt="">
+                <img id="img1" src="./img/sVwCJQc90UI8g3XF5o_uUX6kQ5lttqBpBsfqDIhkJw70rC3z_NkmQkHrNr+CMlNVtlMdtWyAnWcp+IAMywDRGq6B+08tn28XryN5EzJkaFQvVC2U2sDcW92jtQiS4kKWg5KYA11_xl6rs1cbyLInGHgNk_dtuYuwthu2n1iu_8NYLxCCh_35B9f4AV0C_ZReJepRTY7i3eKcuqd3dmvxb.png" alt="">
                 <div class="text">
                     <p id="pi1">Available(in stock)</p>
                     <span>Fresh organic apricot</span>
@@ -752,7 +749,7 @@
             </div>
         </footer>
     </div>
-
+    
 
     <script src="./js.js"></script>
 </body>
