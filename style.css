@@ -966,7 +966,11 @@ color: black;
     justify-content: space-between;
     flex-direction: column;
 }
-
+.nav2_modal{
+    width: 450px;
+    height: 500px;
+    background-color: rgb(0,0,3);
+}
 .sec3_text{
     margin-top: 67px; 
     width: 151px;
