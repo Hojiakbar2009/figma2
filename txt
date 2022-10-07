@@ -1,0 +1,3 @@
+Concat massivni birlashtiradi
+pop oxirgi elementni olib tashlaydi
+indexof

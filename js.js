@@ -8,22 +8,32 @@
 
 
 // }   
-
+const like = document.querySelector(".like");
+const lik = document.querySelector(".lik") 
+setTimeout(function() {
+    
 let modal = document.querySelector(".modal"),
-    p_1 = document.querySelector(".p_1"),
-    btn = document.querySelector(".nav2_box"),
-    nav2_modal = document.querySelector(".nav2_modal");
-    btn.addEventListener("click", ()=>{
-        
-    })
+p_1 = document.querySelector(".p_1"),
+btn = document.querySelector(".nav2_box"),
+tel = document.querySelector(".tel"),
+h11 = document.querySelector(".h11"),
+modal_nav = document.querySelector(".modal_nav1");
+setTimeout(function () {
+    
+h11.addEventListener("click",()=>{
 
-// btn.addEventListener("click", function(){
-//     modal.style.display = "block";
-// });
+    modal_nav.style.display = 'none'
+})
+tel.addEventListener("click", ()=>{
+    modal_nav.style.display = 'block'
+})
 
-// p_1.addEventListener("click", function () {
-//     modal.style.display = "none";
-// });
+},1000)
+
+}, 1000);
+p_1.addEventListener("click", function () {
+    modal.style.display = "none";
+});
 
 
 
@@ -103,3 +113,4 @@ btn_3.addEventListener("click", function(){
 
 
 
+fetch("json.json")
